@@ -11,6 +11,23 @@ import ClassClick from './component/ClassClick';
 import EventBind from './component/EventBind'
 import ParentComponent from './component/ParentComponent';
 import UserGreetings from './component/UserGreeting';
+import NameList from './component/NameList';
+import StyleSheet from './component/StyleSheet';
+import Inline from './component/Inline';
+import Form from './component/Form';
+import LifeCycleMethod from './component/LifeCycleMethod';
+import LifeCycleB from './component/LifeCycleB'
+import FragmentDemo from './component/FragmentDemo';
+import Table from './component/Table';
+import Refs from './component/Refs';
+import FocusRef from './component/FocusRef';
+import FRParentInput from './component/FRParentInput';
+import ClickCounter from './component/ClickCounter';
+import HoverCounter from './component/HoverCounter';
+import User from './component/User';
+import ClickCounterTwo from './component/ClickCounterTwo';
+import CounterTwo from './component/CounterTwo';
+import HttpProject from './component/HttpProject';
 
 // function App() {
 //   return (
@@ -29,7 +46,27 @@ class App extends Component{
     return(
     
       <div className="App">
-      <UserGreetings />
+     <HttpProject />
+      {/* <CounterTwo render = {(count, incrementCounter) => (
+        <ClickCounterTwo count= {count} incrementCounter= {incrementCounter} />
+      )}
+      /> */}
+        {/* <ClickCounterTwo />
+        <User render = {(isLoggedIn)=>isLoggedIn?'raksha':'Guest'}/> */}
+      {/* <ClickCounter name = "raksha"/>
+      
+      <HoverCounter name = "Kern"/> */}
+        {/* <FRParentInput /> */}
+        {/* <Form /> */}
+        {/* <FocusRef /> */}
+        {/* <Refs /> */}
+        {/* <Table /> */}
+     {/* <FragmentDemo /> */}
+        {/* <LifeCycleMethod /> */}
+        {/* <Inline /> */}
+        {/* <StyleSheet primary = 'false' /> */}
+      {/* <UserGreetings /> */}
+          {/* <NameList /> */}
           {/* <FuntionClick />
           <ClassClick /> */}
           {/* <ParentComponent /> */}
